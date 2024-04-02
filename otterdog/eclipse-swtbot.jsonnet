@@ -15,7 +15,7 @@ orgs.newOrg('eclipse-swtbot') {
   },
   _repositories+:: [
     orgs.newRepo('org.eclipse.swtbot') {
-      allow_merge_commit: true,
+      allow_merge_commit: false,
       allow_update_branch: false,
       default_branch: "master",
       delete_branch_on_merge: false,
