@@ -1,6 +1,6 @@
 local orgs = import 'vendor/otterdog-defaults/otterdog-defaults.libsonnet';
 
-orgs.newOrg('eclipse-swtbot') {
+orgs.newOrg('technology.swtbot', 'eclipse-swtbot') {
   settings+: {
     description: "",
     name: "SWTBot Project",
